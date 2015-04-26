@@ -30,7 +30,7 @@ namespace HelloCI.Web.UnitTests.ControllerTests
             Assert.AreEqual("Welcome to ASP.NET MVC!", viewResult.ViewBag.Message);
 
             //Test fail
-            //Assert.Fail();
+            Assert.Fail();
         }
 
         [Test]
