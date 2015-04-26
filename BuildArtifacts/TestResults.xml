@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Develop\Project\xtrumanx-helloci-demo\BuildArtifacts\HelloCI.Web.UnitTests.dll" total="2" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-04-26" time="22:47:42">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5477" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Develop\Project\xtrumanx-helloci-demo" machine-name="EBZALV78MFZ3VNE" user="Administrator" user-domain="EBZALV78MFZ3VNE" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite type="Assembly" name="C:\Develop\Project\xtrumanx-helloci-demo\BuildArtifacts\HelloCI.Web.UnitTests.dll" executed="True" result="Failure" success="False" time="0.707" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="HelloCI" executed="True" result="Failure" success="False" time="0.698" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Web" executed="True" result="Failure" success="False" time="0.698" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="UnitTests" executed="True" result="Failure" success="False" time="0.697" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ControllerTests" executed="True" result="Failure" success="False" time="0.697" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="HomeControllerTests" executed="True" result="Failure" success="False" time="0.695" asserts="0">
+                        <results>
+                          <test-case name="HelloCI.Web.UnitTests.ControllerTests.HomeControllerTests.AboutActionReturnsView" executed="True" result="Success" success="True" time="0.069" asserts="1" />
+                          <test-case name="HelloCI.Web.UnitTests.ControllerTests.HomeControllerTests.IndexActionReturnsView" executed="True" result="Failure" success="False" time="0.610" asserts="2">
+                            <failure>
+                              <message><![CDATA[]]></message>
+                              <stack-trace><![CDATA[在 HelloCI.Web.UnitTests.ControllerTests.HomeControllerTests.IndexActionReturnsView() 位置 C:\Develop\Project\xtrumanx-helloci-demo\HelloCI.Web.UnitTests\ControllerTests\HomeControllerTests.cs:行号 34
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
